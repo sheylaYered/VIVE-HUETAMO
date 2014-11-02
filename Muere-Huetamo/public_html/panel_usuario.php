@@ -12,6 +12,9 @@ and open the template in the editor.
         <title>Vive Huetamo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/EstiloPP.css">
+        <link rel="stylesheet" href="Estilos/Estilo1.css"> 
+         <link rel="stylesheet" href="Estilos/Estilo1.css">
     </head>
     <body>
         
@@ -42,6 +45,8 @@ and open the template in the editor.
                     <li class="c">Historia</li>
                     <li class="c">Galeria</li>
                     <li class="c">Contacto</li>
+                    <a href="Eliminar.php"><li class="c">Eliminar User</li></a>
+                    <li class="c">Consultar User</li>
                     
                 </ul>
             </nav>
