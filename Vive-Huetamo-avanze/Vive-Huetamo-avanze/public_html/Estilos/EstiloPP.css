@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/10/2014, 11:06:37 AM
+    Author     : Xpander1
+*/
+section{
+    display: block;
+}
+
+
+body{
+    background-color: white;
+    color:firebrick;
+}
+header{
+    border-radius:40px;
+}
+.titulo{
+    text-align: center;
+    font-size: 80px;
+    color:white;
+    font-family: serif;
+    background: firebrick;
+    //border-radius: 50px;
+    
+    
+    
+    
+}
+.menuprincipal{
+    margin-top: 0px;
+    color:red;
+    text-align: center;
+    list-style: none;
+   background: white;
+    border-radius: 40px ;
+    
+     border-top:solid 5px green;
+    border-bottom: solid 15px firebrick;
+   //background-color: green;
+   // float: left;
+    width: 95.3%;
+    height:12%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left:0px;
+    font-family: initial;
+    font-size: 20px;
+    //font-style: oblique;
+}
+.c{
+    display: inline;
+    margin-left:5px;
+    margin-top:5px;
+    margin-right:5px;
+    background: white;
+}
+.c:hover{
+    cursor:pointer;
+    background-color: firebrick;
+    color:white;
+}
+
+
+.subtitulo{
+     text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    color:blue;
+}
+.atracciones{
+    text-align: center;
+    font-size: 30px;
+    
+    color:green;
+}
