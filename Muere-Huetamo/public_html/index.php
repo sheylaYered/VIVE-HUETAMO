@@ -1,43 +1,140 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <title>Vive Huetamo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Estilos/EstiloPP.css">
-        <link rel="stylesheet" href="Estilos/Estilo1.css"> 
-         <link rel="stylesheet" href="Estilos/Estilo1.css"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+       <meta name="description" content="Sliding Image Panels with CSS3" />
+
+        <meta name="keywords" content="sliding, background-image, css3, panel, images, slider" />
+
+        <meta name="author" content="Codrops" />
+
+ 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+       
+<link rel="stylesheet" type="text/css" href="css/style3.css" />
+        <link rel="stylesheet" href="css/Estilo1.css"> 
+         
+         <script type="text/javascript" src="js/calculos.js"> </script>
+         <link rel="stylesheet" href="css/estiloprincipal.css"> 
+         
     </head>
-    <body background="imagenesfondo/azul.jpg">     
+    <body >     
         <?php
         require("conexion.php");
         base::conectar();
          ?>
       
-        <header class="titulo "  >
-            Vive Huetamo!
-            <div>
+           
+        <header class="titulo">
+            Vive Huetamo!  
+           
+            <div class="pollo">
             <nav>
+                
                 <ul class="menuprincipal">
                     <li class=c>Inicio</li>
-                    
-                    <a href="Historia.html"><li class="c">Historia</li></a>
-                    <a href="Galeria.html"><li class="c">Galeria</li></a>
-                    <a href="Gastronomia.html"><li class="c">Gastronomia</li></a> 
-                    <a href="Tradiciones.html"><li class="c">Tradiciones</li></a>
+                    <li class="c">Directorio</li>
+                   <li class="c">Historia</li>
+                    <li class="c">Galeria</li>
+                    <li class="c">Contacto</li>
+                    <li class="c">Gastronomia</li>
+                     <li class="c">Tradiciones</li>
                 </ul>
             </nav>
-        </div>
+                <nav>
+                    <ul class="menuprincipal2">
+                     <li class="c">Inicia sesion</li>
+                     <li class="c">Registrar</li>
+                    </ul>
+                </nav>
+                
+</div>
+<!--             <img src="logo-huetamo2.png" class="logohuetamo" height="100px" width="150px">-->
+            
         </header>
-        <section id="personajesdestacados">
+        <section>
+            <div class="container">
+
+			<!-- Codrops top bar -->
+
+            <div class="codrops-top">
+
+                
+
+              
+
+              <div class="clr">
+</div>
+
+            </div>
+
+		
+			<section class="cr-container">
+
+<input id="select-img-1" name="radio-set-1" type="radio" class="cr-selector-img-1" checked/>
+
+<label for="select-img-1" class="cr-label-img-1">1</label>
+<input id="select-img-2" name="radio-set-1" type="radio" class="cr-selector-img-2" />
+
+<label for="select-img-2" class="cr-label-img-2">2</label>
+
+<input id="select-img-3" name="radio-set-1" type="radio" class="cr-selector-img-3" />
+<label for="select-img-3" class="cr-label-img-3">3</label>
+<input id="select-img-4" name="radio-set-1" type="radio" class="cr-selector-img-4" />
+
+<label for="select-img-4" class="cr-label-img-4">4</label>
+<div class="clr"></div>
+<div class="cr-bgimg">
+<div>
+<span>Slice 1 - Image 1</span>
+<span>Slice 1 - Image 2</span>
+<span>Slice 1 - Image 3</span>
+
+<span>Slice 1 - Image 4</span>
+</div>
+<div>
+						
+<span>Slice 2 - Image 1</span>
+<span>Slice 2 - Image 2</span>
+
+<span>Slice 2 - Image 3</span>
+<span>Slice 2 - Image 4</span>
+</div>
+<div>
+<span>Slice 3 - Image 1</span>
+<span>Slice 3 - Image 2</span>
+<span>Slice 3 - Image 3</span>
+<span>Slice 3 - Image 4</span>
+</div>
+<div>
+<span>Slice 4 - Image 1</span>
+<span>Slice 4 - Image 2</span>
+
+<span>Slice 4 - Image 3</span>
+
+<span>Slice 4 - Image 4</span>
+</div>
+</div>
+<div class="cr-titles">
+<h3><span>Historia</span><span>conoce la historia de Huetamo</span></h3>
+<h3><span>Galeria</span><span>Conoce la ciudad de Huetamo</span></h3>
+<h3><span>Tradiciones</span><span>Conoce la cultura de Huetamo</span></h3>
+<h3><span>gastronomia</span><span>Conoce los platillos de Huetamo</span></h3>
+</div>
+</section>
+</div> 
+      
+        
+        
+      
+<!--        <section id="personajesdestacados">
                        <form >
-                    
-<fieldset>
+                    -->
+<!--<fieldset>
 <legend><strong>Personajes</strong></legend>
 
 
@@ -46,36 +143,35 @@ and open the template in the editor.
 <p>José Guadalupe Cruz "el profe cruz". Ex jugador profesional y técnico de la primera división mexicana de fútbol.</p>
 <p>Martín Urieta Solano Cantante.</p>
 
-</fieldset>
+</fieldset>-->
                     </form>
             
             
-            
-        </section>
+                   </section>
         
-        <section >
+        <section class="galeriatodo"><!--
             <div id="galeria">
                 <div id="galeria_base">
-                    <img src="galeria1/1.jpg" id="imagen1">
+                    <img src="1.jpg" id="imagen1">
                    
                     
                 </div>
                 
                 <div id="galeria_miniaturas">
-                    <img class="miniatura" src="ip/1.jpg"   onclick="document.getElementById('imagen1').src='galeria1/1.jpg';">
-                     <img class="miniatura" src="ip/2.jpg" onclick="document.getElementById('imagen1').src='galeria1/2.jpg';">
-                      <img class="miniatura" src="ip/3.jpg"   onclick="document.getElementById('imagen1').src='galeria1/3.jpg';">
-                       <img class="miniatura" src="ip/4.jpg"   onclick="document.getElementById('imagen1').src='galeria1/4.jpg';">
-                        <img class="miniatura" src="ip/5.jpg"   onclick="document.getElementById('imagen1').src='galeria1/5.jpg';">
+                    <img class="miniatura" src="ip/1.jpg"   onclick="document.getElementById('imagen1').src='1.jpg';">
+                     <img class="miniatura" src="ip/2.jpg" onclick="document.getElementById('imagen1').src='2.jpg';">
+                      <img class="miniatura" src="ip/3.jpg"   onclick="document.getElementById('imagen1').src='3.jpg';">
+                       <img class="miniatura" src="ip/4.jpg"   onclick="document.getElementById('imagen1').src='4.jpg';">
+                        <img class="miniatura" src="ip/5.jpg"   onclick="document.getElementById('imagen1').src='5.jpg';">
                     
                 </div>
                 
                 
             </div>
            
-        </section>
-        
-        <aside id="inicioSesion">
+      </section>
+        -->
+<!--        <aside id="inicioSesion">
             <div >
                 <form method="POST">
                     
@@ -125,22 +221,24 @@ if(isset($_POST["user"]) && isset($_POST["pass"])){
           
                 
            
-        </aside>
-        <footer>
-            
-             
+        </aside>-->
+<!--        <footer>
+            <br/>
+             <br/>
              <p >Visitanos en Nuestras Redes Sociales<</p>
              <div>
                  <center>
-                     <img src="redes/facebook.png" width="80"height="80">
-                     <img src="redes/twiter.png"width="80"height="80">
-                     <img src="redes/men.png"width="80"height="80">
+             <img src="redes/facebook.png">
+               <img src="redes/twiter.png">
+                <img src="redes/men.png">
                  </center>
              </div>
                  
-                
+              <br/>
+               <br/>
+               <br/>
              
-        </footer>
+        </footer>-->
        
             <br/>
             <!--
