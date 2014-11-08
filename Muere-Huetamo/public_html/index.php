@@ -47,7 +47,7 @@
             </nav>
                 <nav>
                     <ul class="menuprincipal2">
-                     <li class="c">Inicia sesion</li>
+                     <a href="IniciarSesion.php"><li class="c">Inicia sesion</li></a>
                     <a href="FormularioRegistrar.html"> <li class="c">Registrar</li></a>
                     </ul>
                 </nav>
