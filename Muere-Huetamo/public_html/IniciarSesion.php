@@ -19,6 +19,42 @@ and open the template in the editor.
         	<input type="password" id="pass" placeholder="Contraseña">
 
         	<button>Iniciar Sesion</button>
+
+<?php
+session_start();
+
+if(isset($_GET['sesion'])){
+
+    $sesion=$_GET['sesion'];
+
+    if($sesion==1)
+        session_destroy();
+    
+}
+
+
+
+
+
+if(isset($_POST['usuario'])&& isset($_POST['pass'])){
+    $nick=$_POST['usuario'];
+    $pass=$_POST['pass'];
+$conexion=mysqli_connect("localhost","root","amsc","vivehuetamo")
+
+$res=mysql_query($conexion,"select *from usuarios where nick='$nick' and password='$pass'");
+
+if($lector=mysqli_fetch_array($res)){
+    $_SESSION['inicio']='OK';
+
+    header("Location: consultar.php");
+}
+}
+?>
+
+
+
+
+
         </form>
     </body>
 </html>
