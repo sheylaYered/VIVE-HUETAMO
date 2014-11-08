@@ -1,0 +1,19 @@
+body{
+	background-repeat: no-repeat;
+}
+
+
+#titulo{
+	color: white;
+	font-size: 25px;
+	font-style: "Calibri";
+	position: center;
+}
+
+
+#tex{
+	color: white;
+	font-size: 25px;
+	font-style: "Arial";
+
+}
