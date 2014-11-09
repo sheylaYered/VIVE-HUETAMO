@@ -5,58 +5,29 @@ background-color: brown;
 
 
 #titulo{
+    text-align: justify;
 	color: black;
 	font-size: 20px;
 	font-style: "ALGERIAN";
 	position: center;
+        margin-left: 890px;
+    margin-right: 75px;
+        padding-top: 12px;
+    padding-left: 12px;
 }
 
 
 #tex{
-	margin-top: 30px;
-	margin-bottom: 90px;
-	margin-left: 36px;
-	margin-right: 25px;
+    padding-top: 12px;
+    padding-left: 12px;
+
+text-align: justify;
+	margin-left: 700px;
+	margin-right: 75px;
 	color: black;
-	font-size: 25px;
-	font-style: "Arial";
-list-style-position: inherit;
+	font-size: 20px;
+	font-style: "Arial"
+    ;
+float: left;
 }
 
-
-#galeria{
-    border:solid 5px buttonshadow;
-    border-radius: 25px;
-    padding: 20px;
-    padding-bottom: 0;
-    background-color: marron;
-    width: 500px;
-
-margin-bottom: 250px;
-
-    margin-top: 45px;
-    float: left;
-}
-#imagen1,imagen2,imagen3,imagen4,imagen5{
-    border: 1px solid white;
-    border-radius: 25px;
-    width: 500px;
-    height: 350px;
-}
-
-#galeria_miniaturas{
-    display: table;
-    margin: 0px auto;
-  
-    
-}
-.miniatura{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    float:left;
-    cursor:pointer;
-    padding:5px;
-    margin: 10px 5px;
-
-}
