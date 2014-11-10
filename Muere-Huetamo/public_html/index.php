@@ -38,17 +38,17 @@
                 <ul class="menuprincipal">
                     <li class=c>Inicio</li>
                     <li class="c">Directorio</li>
-                   <li class="c">Historia</li>
+                   <a href="Historia.html"><li class="c">Historia</li></a>
                     <li class="c">Galeria</li>
                     <li class="c">Contacto</li>
-                    <li class="c">Gastronomia</li>
+                    <li class="c" >Gastronomia</li>
                      <li class="c">Tradiciones</li>
                 </ul>
             </nav>
                 <nav>
                     <ul class="menuprincipal2">
-                     <li class="c">Inicia sesion</li>
-                     <li class="c">Registrar</li>
+                     <a href="IniciarSesion.php"><li class="c">Inicia sesion</li></a>
+                    <a href="FormularioRegistrar.html"> <li class="c">Registrar</li></a>
                     </ul>
                 </nav>
                 
