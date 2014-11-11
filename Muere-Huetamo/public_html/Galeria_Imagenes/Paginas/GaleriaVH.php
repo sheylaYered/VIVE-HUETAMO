@@ -53,6 +53,12 @@ and open the template in the editor.
                                   <img class="caminar" alt="" width="900" height="650" src="../Imagenes/16.jpg"> 
                                    <img class="caminar" alt="" width="900" height="650" src="../Imagenes/17.jpg">
                                   <img class="caminar" alt="" width="900" height="650" src="../Imagenes/18.jpg">
+                                    <img class="caminar" alt="" width="900" height="600" src="../Imagenes/19.jpg">
+                                      <img class="caminar" alt="" width="900" height="600" src="../Imagenes/20.jpg">
+                                        <img class="caminar" alt="" width="900" height="600" src="../Imagenes/21.jpg">
+                                          <img class="caminar" alt="" width="900" height="600" src="../Imagenes/22.jpg">
+                                            <img class="caminar" alt="" width="900" height="600" src="../Imagenes/23.jpg">
+                                              <img class="caminar" alt="" width="900" height="600" src="../Imagenes/24.jpg">
                       </figure>
                   
                 </article>  

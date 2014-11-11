@@ -27,7 +27,7 @@ section article aside{
 
 #galeria_mov{
   
-    width: 700px  ;
+    width: 900px  ;
     height: 450px;
     overflow:hidden;             
 }
@@ -35,7 +35,7 @@ section article aside{
 	float:left;
 }
 #Lista{
-    width: 12600px;
+    width: 21600px;
     height: 500px;                           
 }
 
