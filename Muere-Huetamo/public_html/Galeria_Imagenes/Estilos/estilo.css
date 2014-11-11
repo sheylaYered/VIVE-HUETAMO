@@ -1,20 +1,12 @@
-/*
-    Created on : 29/10/2014, 10:29:30 AM;
-    Author     : Jesus Guerrero R
-*/
-
 
 body{
- background: url(../../imagenesfondo/azul3.jpg);
+	background-color:blue;
 	
 }
 header{
-    margin-top:0px;
-    color:white;
 	text-align: center;
-	font-size:50px;
-	font-family:Magneto;
-    text-shadow: blue 5px 5px 16px;
+	font-size:70px;
+	font-family:Verdana;
 }
 section article aside{
 	display: inline-block;
@@ -23,33 +15,28 @@ section article aside{
 #marcoCentral{
 	display:inline-block;
 	border-radius: 100px;
-    
-   color:white;
+    padding: 30px;
+    padding-bottom: 0;
     background: maroon;
-    width:98%;
-   height:20px;
-    margin-left: 0%;
+    width:90%;
+   height:1px;
+    margin-left: 3%;
     margin-top: 1%;
-    /**/
 
 }
 
 #galeria_mov{
-   
-  width: 700px;
-  height: 500px;
-    overflow:hidden;  
-    border-radius: 25px;           
+  
+    width: 700px  ;
+    height: 450px;
+    overflow:hidden;             
 }
-
 .caminar{
-   
 	float:left;
-  border-radius:25px;
 }
 #Lista{
-    width: 15300px;
-    height: 600px;                           
+    width: 12600px;
+    height: 500px;                           
 }
 
 
