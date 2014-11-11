@@ -9,6 +9,8 @@ and open the template in the editor.
         <title>Inicio de Sesión</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/EstiloInicio.css">
+
     </head>
     <body>
         <form>
@@ -20,36 +22,6 @@ and open the template in the editor.
 
         	<button>Iniciar Sesion</button>
 
-<?php
-session_start();
-
-if(isset($_GET['sesion'])){
-
-    $sesion=$_GET['sesion'];
-
-    if($sesion==1)
-        session_destroy();
-    
-}
-
-
-
-
-
-if(isset($_POST['usuario'])&& isset($_POST['pass'])){
-    $nick=$_POST['usuario'];
-    $pass=$_POST['pass'];
-$conexion=mysqli_connect("localhost","root","amsc","vivehuetamo")
-
-$res=mysql_query($conexion,"select *from usuarios where nick='$nick' and password='$pass'");
-
-if($lector=mysqli_fetch_array($res)){
-    $_SESSION['inicio']='OK';
-
-    header("Location: consultar.php");
-}
-}
-?>
 
 
 
