@@ -42,7 +42,7 @@
                      <li class="c"><a href="Galeria_Imagenes/Paginas/GaleriaVH.php">Galeria</li>
                     <li class="c">Contacto</li>
                     <li class="c" >Gastronomia</li>
-                     <li class="c">Tradiciones</li>
+                    <a href="Tradiciones.html"><li class="c">Tradiciones</li></a>
                 </ul>
             </nav>
                 <nav>
