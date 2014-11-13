@@ -23,10 +23,7 @@
          
     </head>
     <body >     
-        <?php
-        require("conexion.php");
-        base::conectar();
-         ?>
+       
       
            
         <header class="titulo">
