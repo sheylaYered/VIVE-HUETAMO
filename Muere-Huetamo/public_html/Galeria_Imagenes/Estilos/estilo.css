@@ -1,0 +1,42 @@
+
+body{
+	background-color:blue;
+	
+}
+header{
+	text-align: center;
+	font-size:70px;
+	font-family:Verdana;
+}
+section article aside{
+	display: inline-block;
+}
+
+#marcoCentral{
+	display:inline-block;
+	border-radius: 100px;
+    padding: 30px;
+    padding-bottom: 0;
+    background: maroon;
+    width:90%;
+   height:1px;
+    margin-left: 3%;
+    margin-top: 1%;
+
+}
+
+#galeria_mov{
+  
+    width: 900px  ;
+    height: 450px;
+    overflow:hidden;             
+}
+.caminar{
+	float:left;
+}
+#Lista{
+    width: 21600px;
+    height: 500px;                           
+}
+
+
