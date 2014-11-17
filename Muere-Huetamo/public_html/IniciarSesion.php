@@ -9,52 +9,46 @@ and open the template in the editor.
         <title>Inicio de Sesión</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/EstiloInicio.css">
+<link rel="stylesheet" type="text/css" href="css/EstiloPrincipal.css">
+
     </head>
     <body>
-        <form>
-        	<label>Usuario</label>
+ 
 
-        	<input type="text" id="user" placeholder="Usuario"/>
-        	<label>Contraseña</label>
-        	<input type="password" id="pass" placeholder="Contraseña">
 
-        	<button>Iniciar Sesion</button>
-
-<?php
-session_start();
-
-if(isset($_GET['sesion'])){
-
-    $sesion=$_GET['sesion'];
-
-    if($sesion==1)
-        session_destroy();
+    <header id="titulo">Iniciar Sesion</header>
     
-}
 
 
 
+    <nav>
+                
+                <ul class="menuprincipal">
+                    <li class=c>Inicio</li>
+                    <li class="c">Directorio</li>
+                   <a href="Historia.html"><li class="c">Historia</li></a>
+                    <li class="c">Galeria</li>
+                    <li class="c">Contacto</li>
+                    <li class="c" >Gastronomia</li>
+                     <li class="c">Tradiciones</li>
+                </ul>
+            </nav>
+<section class="f">
+        <form method="post" id="form">
+        	<p><label>Usuario</label></p>
 
+        	<p><input id="caja1" type="text" id="user" placeholder="Usuario"/></p>
+        	<p><label>Contraseña</label></p>
+        	<p><input id="caja2" type="password" id="pass" placeholder="Contraseña"></p>
 
-if(isset($_POST['usuario'])&& isset($_POST['pass'])){
-    $nick=$_POST['usuario'];
-    $pass=$_POST['pass'];
-$conexion=mysqli_connect("localhost","root","amsc","vivehuetamo")
+        	<center><p><input id="botton" type="submit" id="boton" value="Ingresar"/></p></center>
 
-$res=mysql_query($conexion,"select *from usuarios where nick='$nick' and password='$pass'");
-
-if($lector=mysqli_fetch_array($res)){
-    $_SESSION['inicio']='OK';
-
-    header("Location: consultar.php");
-}
-}
-?>
-
-
+</section>
 
 
 
         </form>
+
     </body>
 </html>

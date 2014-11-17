@@ -1,0 +1,52 @@
+
+body{
+
+background-color:firebrick;	
+}
+
+label{
+	font-family: "vivaldi";
+	font-size: 35px;
+
+	margin-left: 600px;
+margin-right: 600px;
+margin-bottom: 250px;
+;
+}
+#caja1{
+margin-left: 600px;
+margin-right: 600px;
+
+
+}
+
+#caja2{
+	margin-left: 600px;
+	margin-right: 600px;
+
+}
+
+
+#botton{
+	margin-left: 600px;
+	margin-right: 600px;
+border-radius: 5px;
+
+}
+#form{
+	margin-top:100px;
+}
+
+#titulo{
+	text-align: center;
+	font-size: 75px;
+	font-family: "vivaldi";
+	background-color: firebrick;
+
+}
+
+.menuprincipal{
+	background-color: firebrick;
+	padding-bottom: 2px;
+	padding: 15px;
+}
