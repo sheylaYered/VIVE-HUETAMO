@@ -34,14 +34,27 @@ border-radius: 5px;
 
 }
 #form{
-	margin-top:100px;
+	margin-top:80px;
+	border: 2px;
+	border-color: black;
 }
+
+
+nav{
+	float: right;
+}
+
+
 
 #titulo{
 	text-align: center;
 	font-size: 75px;
 	font-family: "vivaldi";
+	font-color: white;
 	background-color: firebrick;
+border:2px;
+border-color: firebrick;
+border-radius: 78px;
 
 }
 
@@ -49,4 +62,15 @@ border-radius: 5px;
 	background-color: firebrick;
 	padding-bottom: 2px;
 	padding: 15px;
+	border-radius: 78px;
+	border:2px;
+text-align: center;
+float: center;
+
+}
+section{
+	border:5px;
+	border-radius: 78px;
+	width: 500%
+	
 }

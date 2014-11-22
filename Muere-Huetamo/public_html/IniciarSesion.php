@@ -6,6 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
+
         <title>Inicio de Sesión</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,7 @@ and open the template in the editor.
 
     </head>
     <body>
- 
+
 
 
     <header id="titulo">Iniciar Sesion</header>
@@ -24,31 +25,43 @@ and open the template in the editor.
 
     <nav>
                 
-                <ul class="menuprincipal">
-                    <li class=c>Inicio</li>
-                    <li class="c">Directorio</li>
+                <center><ul class="menuprincipal">
+                    <a href="index.php"><li class=c>Inicio</li></a>
+                  
                    <a href="Historia.html"><li class="c">Historia</li></a>
-                    <li class="c">Galeria</li>
+                    <a href="Galeria_Imagenes/Paginas/GaleriaVH.php"><li class="c">Galeria</li></a>
                     <li class="c">Contacto</li>
-                    <li class="c" >Gastronomia</li>
-                     <li class="c">Tradiciones</li>
-                </ul>
+                    <a href="gastronomia.html"><li class="c" >Gastronomia</li></a>
+                     <a href="Tradiciones.html"><li class="c"s>Tradiciones</li></a>
+                </ul></center>
             </nav>
-<section class="f">
+
+            
+
         <form method="post" id="form">
         	<p><label>Usuario</label></p>
 
         	<p><input id="caja1" type="text" id="user" placeholder="Usuario"/></p>
         	<p><label>Contraseña</label></p>
         	<p><input id="caja2" type="password" id="pass" placeholder="Contraseña"></p>
+<center><button>Entrar</button></center>
 
-        	<center><p><input id="botton" type="submit" id="boton" value="Ingresar"/></p></center>
 
-</section>
+
+
+
+
+
+
+
 
 
 
         </form>
+
+
+
+
 
     </body>
 </html>

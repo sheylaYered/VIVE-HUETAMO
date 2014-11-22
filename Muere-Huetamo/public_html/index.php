@@ -34,11 +34,11 @@
                 
                 <ul class="menuprincipal">
                     <li class=c>Inicio</li>
-                    <li class="c">Directorio</li>
+                    
                    <a href="Historia.html"><li class="c">Historia</li></a>
-                     <li class="c"><a href="Galeria_Imagenes/Paginas/GaleriaVH.php">Galeria</li>
+                     <li class="c"><a href="Galeria_Imagenes/Paginas/GaleriaVH.php">Galeria</li></a>
                     <li class="c">Contacto</li>
-                    <li class="c" >Gastronomia</li>
+                    <a href="gastronomia.html"><li class="c" >Gastronomia</li></a>
                     <a href="Tradiciones.html"><li class="c">Tradiciones</li></a>
                 </ul>
             </nav>
@@ -128,10 +128,10 @@
         
         
       
-<!--        <section id="personajesdestacados">
+       <section id="personajesdestacados">
                        <form >
-                    -->
-<!--<fieldset>
+                    
+<fieldset>
 <legend><strong>Personajes</strong></legend>
 
 
@@ -140,7 +140,7 @@
 <p>José Guadalupe Cruz "el profe cruz". Ex jugador profesional y técnico de la primera división mexicana de fútbol.</p>
 <p>Martín Urieta Solano Cantante.</p>
 
-</fieldset>-->
+</fieldset>
                     </form>
             
             
