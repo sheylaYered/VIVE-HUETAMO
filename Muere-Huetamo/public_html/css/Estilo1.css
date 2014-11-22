@@ -58,27 +58,37 @@ font: solid bold ;
     padding: 20px;
     padding-bottom: 0;
     background: firebrick;
-    width: 200px;
-    height: 485px;
+    width: 170px;
+   margin-bottom: 200px;
+   margin-top: -380px;
+   margin-left: 1085px;
+   margin-right: 25px;
+    height: 380px;
+    font-size: 16px;
+    font-family: "Italica";
    // margin: auto;
-    margin-left:20px;
-    margin-right: 0px;
-    
+  
+    float: left;
     
 }
+
 #personajesdestacados{
     display:inline-block;
-border:solid 1px #EAEAEA;
+    border: firebrick;
 color:white;
 font: solid bold ;
     border-radius: 25px;
     padding: 20px;
     padding-bottom: 0;
     background: firebrick;
-    width: 180px;
-    height: 485px;
+    width: 170px;
+    height: 350px;
+    margin: -380px 0px 0px 25px;
+    position: inherit;
+  //  margin-top: -700px;
    // margin: auto;
-    margin-left:0px;
+  //  margin-left:5px;
+
     //margin-right: 0px;
 }
 #link{

@@ -6,6 +6,9 @@
 	//margin: 0px 0px 0px 50%;
 	border: 20px solid #fff;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        margin-top: 25px;
+        border-radius: 15px;
+       // float: right;
 }
 .cr-container label{
 	font-style: italic;

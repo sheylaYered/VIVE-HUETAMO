@@ -1,10 +1,22 @@
 <html>  
 
 <head>  
-<title>Guardar Datos</title>  
+<title>Guardar Datos</title> 
+
+
+         <link rel="stylesheet" type="text/css" href="css/demo.css" />
+         <link rel="stylesheet" type="text/css" href="css/style3.css" />
+         <link rel="stylesheet" href="css/Estilo1.css"> 
+         <script type="text/javascript" src="js/calculos.js"> </script>
+         <link rel="stylesheet" href="css/estiloprincipal.css"> 
+
+ 
 </head>  
 
-<body>  
+<body>
+<?php
+include('menu.php');
+?>	  
 <?php  
 
 

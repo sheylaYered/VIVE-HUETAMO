@@ -4,8 +4,8 @@ class base {
 /*DATOS DE CONEXION*/
 static $servidor = "127.0.0.1";
 static $usuario = "root";
-static $password = "amsc";
-static $bd = "vivehuetamo";
+static $password = "juan";
+static $bd = "huetamo";
 /*FIN DE DATOS DE CONEXION */
 static $conexion = null;
 

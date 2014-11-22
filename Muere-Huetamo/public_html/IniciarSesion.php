@@ -6,62 +6,48 @@ and open the template in the editor.
 -->
 <html>
     <head>
-
         <title>Inicio de Sesión</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/EstiloInicio.css">
-<link rel="stylesheet" type="text/css" href="css/EstiloPrincipal.css">
+
+
+
+         <link rel="stylesheet" type="text/css" href="css/demo.css" />
+         <link rel="stylesheet" type="text/css" href="css/style3.css" />
+         <link rel="stylesheet" href="css/Estilo1.css"> 
+         <script type="text/javascript" src="js/calculos.js"> </script>
+         <link rel="stylesheet" href="css/estiloprincipal.css"> 
+
 
     </head>
     <body>
+    <?php
+include('menu.php');
+?>	
+        <form method="POST" action="logininicio.php">
+        	<label>Usuario</label>
+
+        	<input type="text" id="name" placeholder="Usuario"/>
+        	<label>Contraseña</label>
+        	<input type="password" id="pass" placeholder="Contraseña">
+
+                <button id="boton">Iniciar Sesion</button>
+<!--
+<br/>
+<br/>
+<input type="submit" id="boton" value="Ingresar"/>
 
 
-
-    <header id="titulo">Iniciar Sesion</header>
-    
-
-
-
-    <nav>
-                
-                <center><ul class="menuprincipal">
-                    <a href="index.php"><li class=c>Inicio</li></a>
-                  
-                   <a href="Historia.html"><li class="c">Historia</li></a>
-                    <a href="Galeria_Imagenes/Paginas/GaleriaVH.php"><li class="c">Galeria</li></a>
-                    <li class="c">Contacto</li>
-                    <a href="gastronomia.html"><li class="c" >Gastronomia</li></a>
-                     <a href="Tradiciones.html"><li class="c"s>Tradiciones</li></a>
-                </ul></center>
-            </nav>
-
-            
-
-        <form method="post" id="form">
-        	<p><label>Usuario</label></p>
-
-        	<p><input id="caja1" type="text" id="user" placeholder="Usuario"/></p>
-        	<p><label>Contraseña</label></p>
-        	<p><input id="caja2" type="password" id="pass" placeholder="Contraseña"></p>
-<center><button>Entrar</button></center>
-
-
-
-
-
-
-
+-->
+<label for="Registro" id="link" class="c">Registrarse</label>
+<br/>
+</fieldset>
 
 
 
 
 
         </form>
-
-
-
-
-
     </body>
 </html>

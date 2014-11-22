@@ -7,14 +7,13 @@ and open the template in the editor.
 <?php 
 class consultar{
 public function consultarUsuarios(){
-$conexion =  mysqli_connect("localhost", "root", "juan", "huetamo");
+$conexion =  mysqli_connect("localhost", "root", "amsc", "vivehuetamo");
 $consulta = mysqli_query($conexion, "select noticia from noticias");
 while($fila = mysqli_fetch_array($consulta)){
 echo "<tr>
 		<td>$fila[0]</td>
-                    <br>
-		 <br>
-               
+		<br>
+                <br>
 	</tr>";
 }
 mysqli_close($conexion);

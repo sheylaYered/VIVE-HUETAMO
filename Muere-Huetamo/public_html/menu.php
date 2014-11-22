@@ -5,7 +5,7 @@
             <nav>
                 
                 <ul class="menuprincipal">
-                    <li class=c>Inicio</li>
+                    <a href="index.php"><li class=c>Inicio</li></a>
                     <li class="c">Directorio</li>
                    <a href="Historia.php"><li class="c">Historia</li></a>
                     <li class="c"><a href="GaleriaVH.php">Galeria</li>

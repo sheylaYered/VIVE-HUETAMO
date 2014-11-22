@@ -5,58 +5,34 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-       <meta name="description" content="Sliding Image Panels with CSS3" />
-
+        <meta name="description" content="Sliding Image Panels with CSS3" />
         <meta name="keywords" content="sliding, background-image, css3, panel, images, slider" />
-
         <meta name="author" content="Codrops" />
 
  
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-
-       
-<link rel="stylesheet" type="text/css" href="css/style3.css" />
-        <link rel="stylesheet" href="css/Estilo1.css"> 
-         
+         <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style3.css" />
+         <link rel="stylesheet" href="css/Estilo1.css"> 
          <script type="text/javascript" src="js/calculos.js"> </script>
          <link rel="stylesheet" href="css/estiloprincipal.css"> 
          
     </head>
-    <body >     
-       
+    <body >  
+    <?php
+include('menu.php');
+?>	   
+        <div>
       
-           
-        <header class="titulo">
-            Vive Huetamo!  
-           
-            <div class="pollo">
-            <nav>
-                
-                <ul class="menuprincipal">
-                    <li class=c>Inicio</li>
-                    
-                   <a href="Historia.html"><li class="c">Historia</li></a>
-                     <li class="c"><a href="Galeria_Imagenes/Paginas/GaleriaVH.php">Galeria</li></a>
-                    <li class="c">Contacto</li>
-                    <a href="gastronomia.html"><li class="c" >Gastronomia</li></a>
-                    <a href="Tradiciones.html"><li class="c">Tradiciones</li></a>
-                </ul>
-            </nav>
-                <nav>
-                    <ul class="menuprincipal2">
-                     <a href="IniciarSesion.php"><li class="c">Inicia sesion</li></a>
-                    <a href="FormularioRegistrar.html"> <li class="c">Registrar</li></a>
-                    </ul>
-                </nav>
-                
-</div>
-<!--             <img src="logo-huetamo2.png" class="logohuetamo" height="100px" width="150px">-->
             
-        </header>
+                
+         
+            
+           
+     
         <section>
             <div class="container">
 
-			<!-- Codrops top bar -->
+		 
 
             <div class="codrops-top">
 
@@ -70,7 +46,7 @@
             </div>
 
 		
-			<section class="cr-container">
+                        <section  class="cr-container">
 
 <input id="select-img-1" name="radio-set-1" type="radio" class="cr-selector-img-1" checked/>
 
@@ -86,7 +62,7 @@
 <label for="select-img-4" class="cr-label-img-4">4</label>
 <div class="clr"></div>
 <div class="cr-bgimg">
-<div>
+    <div>
 <span>Slice 1 - Image 1</span>
 <span>Slice 1 - Image 2</span>
 <span>Slice 1 - Image 3</span>
@@ -124,14 +100,13 @@
 </div>
 </section>
 </div> 
+    
+            
       
-        
-        
-      
-       <section id="personajesdestacados">
-                       <form >
+            <div id="personajesdestacados">
+                      
                     
-<fieldset>
+                           <fieldset>
 <legend><strong>Personajes</strong></legend>
 
 
@@ -139,14 +114,21 @@
 <p>Amalia Mendoza García (1923-2001), cantante.</p>
 <p>José Guadalupe Cruz "el profe cruz". Ex jugador profesional y técnico de la primera división mexicana de fútbol.</p>
 <p>Martín Urieta Solano Cantante.</p>
+<p>Balde el rellenero mas famoso.</p>
+<p> jose avila camacho: Escritor celebre.</p>
 
 </fieldset>
-                    </form>
+                               </div>
             
-            
-                   </section>
         
-        <section class="galeriatodo"><!--
+        
+           
+            
+        </div>
+        
+      
+            
+<!--        <section class="galeriatodo">
             <div id="galeria">
                 <div id="galeria_base">
                     <img src="1.jpg" id="imagen1">
@@ -168,84 +150,62 @@
            
       </section>
         -->
-<!--        <aside id="inicioSesion">
-            <div >
-                <form method="POST">
-                    
-                    <br/>
-                    
-<fieldset>
-<legend><strong>Iniciar Sesion</strong></legend>
-<br/>
-<p>
-<label>Usuario:</label>
-<input type="text" id="nombre" name="user" placeholder="Usuario">
-</p>
-<br/>
-<p>
-<label>Contraseña:</label>
-<input type="password" id="nombre" name="pass" placeholder="Password">
-</p>
-<br/>
-<br/>
-<input type="submit" id="boton" value="Ingresar"/>
+        
+       
+   
+  
+        <div id="inicioSesion">
+        
+            <marquee id="Galeria" direction="up">
 
-<?php
-if(isset($_POST["user"]) && isset($_POST["pass"])){
-    $consulta = mysqli_query(base::$conexion,"select usuario, pass from login where usuario='".$_POST["user"]."' and pass=PASSWORD('".$_POST["pass"]."')");
-     if ($datos = mysqli_fetch_array($consulta)){
-    session_start();
-    $_SESSION["aut"]=$_POST["user"];
-    echo  
-    '<br>Bienvenido: '.$_SESSION["aut"];
-        header("Location: panel_usuario.php");
-    }else{
-        echo '<br>usuario o contrase&ntilde;a incorrecta';
-    }
-}
-?>
+             <center>Noticias</center> 
+             
+             <?php 
 
+require_once 'ConNo.php';
+$con = new consultar();
+$con->consultarUsuarios();
+ ?>
 
-<label for="Registro" id="link" class="c">Registrarse</label>
-<br/>
-</fieldset>
-                    <br/>
-<br/>
-<br/>
-<br/>
-                    </form>
-            </div>
-          
-                
-           
-        </aside>-->
-<!--        <footer>
+             
+</marquee>
+        
+<a href="javascript:void(0);" onclick="getElementById('ejemplo').direction='down';">
+
+</a>
+<a href="javascript:void(0);" onclick="getElementById('ejemplo').direction='up';">
+
+</a>
+        
+        </div>
+        <br/>
+        <br/>
+        
+        <footer>
+           <br/>
+           <br/>
+           <br/>
             <br/>
+           <br/>
+           <br/>
+           <center><p id="redes">Visitanos en Nuestras Redes Sociales</p></center>
              <br/>
-             <p >Visitanos en Nuestras Redes Sociales<</p>
+           
+           
              <div>
                  <center>
-             <img src="redes/facebook.png">
-               <img src="redes/twiter.png">
-                <img src="redes/men.png">
+                     <img src="redes/facebook.png" width="50" height="50">
+                     <img src="redes/twiter.png" width="50" height="50">
+                     <img src="redes/men.png" width="50" height="50">
                  </center>
              </div>
                  
-              <br/>
-               <br/>
-               <br/>
+        
              
-        </footer>-->
+        </footer>
        
-            <br/>
-            <!--
-            <div>
-                <p  class="subtitulo">Principales Atracciones</p>
-                
-                <p class="atracciones">Inglesia de San Juan Bautista</p>
-                <Center><img src="huetamo.jpg"></Center>
-                
-            </div>-->
+         
+      
        
     </body>
 </html>
