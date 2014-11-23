@@ -14,7 +14,7 @@ and open the template in the editor.
         <script src="http://dev.jquery.com/view/tags/ui/latest/ui/effects.core.js"></script>
         <script src="http://dev.jquery.com/view/tags/ui/latest/ui/effects.slide.js"></script>
         <script type="text/javascript" src="js/supersized.2.0.js"></script>
-        <script type="text/javascript">  
+     
 
 
          <link rel="stylesheet" type="text/css" href="css/demo.css" />
@@ -26,7 +26,7 @@ and open the template in the editor.
 
 
 
-
+<script type="text/javascript">
 
 
         $(function(){
