@@ -9,7 +9,7 @@
                     <li class="c">Directorio</li>
                    <a href="Historia.php"><li class="c">Historia</li></a>
                    <li class="c"><a href="GaleriaVH.php">Galeria</li></a>
-                    <li class="c">Contacto</li>
+                    <li class="c"><a href="contacto.php">Contacto</li>
                     <a href="gastronomia.php"><li class="c" >Gastronomia</li>
                     <a href="Tradiciones.php"><li class="c">Tradiciones</li></a>
                 </ul>
