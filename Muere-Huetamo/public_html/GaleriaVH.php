@@ -49,7 +49,7 @@ include('menu.php');
                     <figure id="Lista">
                         
                         <img class="caminar" alt="" width="900" height="600" src="Imagenesgaleria/1.jpg">
-                        <img class="caminar" alt="" width="900" height="600" src="Imagenesgaleria/3.jpg">
+                        <img class="caminar" alt="" width="900" height="600" src="Imagenesgaleria/2.jpg">
                           <img class="caminar" alt="" width="900" height="600" src="Imagenesgaleria/4.jpg">
                           <img class="caminar" alt="" width="900" height="600" src="Imagenesgaleria//5.jpg">
                             <img class="caminar" alt="" width="900" height="600" src="Imagenesgaleria/6.jpg">
@@ -58,7 +58,7 @@ include('menu.php');
                                 <img class="caminar" alt="" width="900" height="650" src="Imagenesgaleria/9.jpg">
                                 <img class="caminar" alt="" width="900" height="650" src="Imagenesgaleria/10.jpg">
                                 <img class="caminar" alt="" width="900" height="650" src="Imagenesgaleria/11.jpg">
-                               <img class="caminar" alt="" width="900" height="650" src="Imagenesgalria/12.jpg">
+                               <img class="caminar" alt="" width="900" height="650" src="Imagenesgaleria/12.jpg">
                                   <img class="caminar" alt="" width="900" height="650" src="Imagenesgaleria/13.jpg">
                                  <img class="caminar" alt="" width="900" height="650" src="Imagenesgaleria/14.jpg">
                                  <img class="caminar" alt="" width="900" height="650" src="Imagenesgaleria/15.jpg">

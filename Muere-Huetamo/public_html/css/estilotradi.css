@@ -1,0 +1,227 @@
+body{
+   width: 70%;
+    background-color:firebrick;
+    margin-left:2px;
+
+}
+
+
+
+#titulo{
+	margin-left: 510px;
+	
+    font-size: 45px;
+    color:white;
+    font-family: verdana;
+    
+    
+}
+
+#caja1{
+	border: 3px solid red;
+	height: 460px;
+	width: 95%;
+	background: white;
+	margin-left: 230px;
+	margin-top: 25px;
+	border-radius: 5px;
+
+}
+#cajaima{
+	border: 3px solid red;
+	height: 376px;
+	width: 90%;
+	background: firebrick;
+	margin-left: 40px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+#caja2{
+	border: 3px solid red;
+	height: 460px;
+	width: 100%;
+	background: white;
+	margin-left: 1px;
+	margin-top: 75px;
+	border-radius: 5px;
+
+}
+
+#caja4{
+	border: 3px solid red;
+	height: 380px;
+	width: 90%;
+	background: firebrick;
+	margin-left: 40px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+#caja5{
+	border: 3px solid red;
+	height: 460px;
+	width: 100%;
+	background: white;
+	margin-left: 1px;
+	margin-top: 75px;
+	border-radius: 5px;
+}
+
+
+#caja6{
+	border: 3px solid red;
+	height: 380px;
+	width: 90%;
+	background: firebrick;
+	margin-left: 40px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+#caja7{
+	border: 3px solid red;
+	height: 460px;
+	width: 100%;
+	background: white;
+	margin-left: 1px;
+	margin-top: 70px;
+	border-radius: 5px;
+}
+
+#caja8{
+	border: 3px solid red;
+	height: 380px;
+	width: 90%;
+	background: firebrick;
+	margin-left: 40px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+#caja9{
+	border: 3px solid red;
+	height: 460px;
+	width: 100%;
+	background: white;
+	margin-left: 1px;
+	margin-top: 70px;
+	border-radius: 5px;
+}
+
+#caja10{
+	border: 3px solid red;
+	height: 380px;
+	width: 90%;
+	background: firebrick;
+	margin-left: 40px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+
+#caja11{
+	border: 3px soid red;
+	height: 460px;
+	width: 100%;
+	background: white;
+	margin-left: 1px;
+	margin-top: 70px;
+	border-radius: 5px;
+}
+
+#caja12{
+	border: 3px solid red;
+	height: 400px;
+	width: 90%;
+	background: firebrick;
+	margin-left: 40px;
+	margin-top: 5px;
+	border-radius: 5px;
+
+}
+
+
+
+#caja13{
+	border: 3px solid red;
+	height: 470px;
+	width: 100%;
+	background: white;
+	margin-left: 1px;
+	margin-top: 70px;
+	border-radius: 5px;
+}
+
+
+#caja14{
+	border: 3px solid red;
+	height: 400px;
+	width: 90%;
+	background: firebrick;
+	margin-left: 40px;
+	margin-top: 5px;
+	border-radius: 5px;
+
+}
+
+#caja15{
+	border: 3px solid red;
+	height: 480px;
+	width: 100%;
+	background: white;
+	margin-left: 1px;
+	margin-top: 70px;
+	border-radius: 5px;
+}
+
+
+#caja16{
+	border: 3px solid red;
+	height: 400px;
+	width: 90%;
+	background: firebrick;
+	margin-left: 40px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+#caja17{
+	border: 3px solid red;
+	height: 480px;
+	width: 100%;
+	background: white;
+	margin-left: 1px;
+	margin-top: 70px;
+	border-radius: 5px;
+}
+
+#caja18{
+	border: 3px solid red;
+	height: 400px;
+	width: 90%;
+	background: firebrick;
+	margin-left: 40px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+#caja19{
+	border: 3px solid red;
+	height: 480px;
+	width: 100%;
+	background: white;
+	margin-left: 1px;
+	margin-top: 70px;
+	border-radius: 5px;
+}
+
+
+#caja20{
+	border: 3px solid red;
+	height: 397px;
+	width: 90%;
+	background: firebrick;
+	margin-left: 40px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
