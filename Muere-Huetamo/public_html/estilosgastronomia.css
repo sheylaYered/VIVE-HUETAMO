@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/10/2014, 04:49:08 PM
+    Author     : lenin
+*/
+
+body{
+    background-color: maroon;
+}
+.imagenes{
+    background-image: url("comidas/verde.jpg")
+        
+}
+
+/*.imagen2{
+    background-image: url("imagenes/azul3.jpg")
+        
+}
+
+.imagen3{
+    background-image: url("imagenes/comida.jpg")
+    
+}
+
+.mujeres{
+   background-image: url("imagenes/azul3.jpg") 
+}
+
+.cocinando{
+    background-image: url("imagenes/azul3.jpg")
+}
+.iguana{
+    background-image: url("imagenes/azul3.jpg")
+}*/
