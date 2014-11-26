@@ -12,24 +12,23 @@ and open the template in the editor.
 <link rel="stylesheet" type="text/css" href="css/EstiloInicio.css">
 
 
-
-         <link rel="stylesheet" type="text/css" href="css/demo.css" />
-         <link rel="stylesheet" type="text/css" href="css/style3.css" />
-         <link rel="stylesheet" href="css/Estilo1.css"> 
-         <script type="text/javascript" src="js/calculos.js"> </script>
-         <link rel="stylesheet" href="css/estiloprincipal.css"> 
+ 
 
 
     </head>
-    <body>
-    <?php
-include('menu.php');
-?>	
-        <form method="POST" action="logininicio.php">
-        	<label>Usuario</label>
+    <body >
+    
+       <section id="cuadrito">
 
-        	<input type="text" id="name" placeholder="Usuario"/>
-        	<label>Contraseña</label>
+<section id="contac3"> <a ><img src="images/36.jpg"  width="340px" height="340px"/></a></section>
+
+       <div class=subcuadrito>
+
+        <form method="POST" action="logininicio.php">
+        	<label id="usuario"><font size=+2 color="white" >Usuario: </label>
+
+        	<input type="text" id="name" placeholder="Usuario"/ >
+        	<label id= "contri"><font size=+2 color="white" >Contraseña:</label>
         	<input type="password" id="pass" placeholder="Contraseña">
 
                 <button id="boton">Iniciar Sesion</button>
@@ -40,7 +39,7 @@ include('menu.php');
 
 
 -->
-<label for="Registro" id="link" class="c">Registrarse</label>
+<label for="Registro" id="link" class="c"><font size=+2 color="white" >Registrarse</label>
 <br/>
 </fieldset>
 
@@ -49,5 +48,8 @@ include('menu.php');
 
 
         </form>
-    </body>
+        </div>
+        </section>
+            </body>
+    
 </html>
