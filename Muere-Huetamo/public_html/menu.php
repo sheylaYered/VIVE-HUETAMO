@@ -12,6 +12,7 @@
                     <li class="c"><a href="contacto.php">Contacto</li>
                     <a href="gastronomia.php"><li class="c" >Gastronomia</li>
                     <a href="Tradiciones.php"><li class="c">Tradiciones</li></a>
+                    <a href="artes.html"><li class="c">Artes Populares</li></a>
                 </ul>
             </nav>
                 <nav>
