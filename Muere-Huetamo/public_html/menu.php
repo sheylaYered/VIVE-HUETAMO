@@ -6,7 +6,7 @@
                 
                 <ul class="menuprincipal">
                     <a href="index.php"><li class=c>Inicio</li></a>
-                    <li class="c">Directorio</li>
+                    <a href="directorio.php"><li class="c">Directorio</li></a>
                    <a href="Historia.php"><li class="c">Historia</li></a>
                    <li class="c"><a href="GaleriaVH.php">Galeria</li></a>
                     <li class="c"><a href="contacto.php">Contacto</li>

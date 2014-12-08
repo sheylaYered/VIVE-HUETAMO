@@ -1,0 +1,33 @@
+
+
+
+#titulo{
+	margin-left: 6px;
+	
+    font-size: 45px;
+    color:black;
+    font-family: verdana;
+    margin-top: -10px;
+}
+
+
+
+
+#tabla{
+	margin-top: 60px;
+}
+
+#borde1{
+	border: 1px solid firebrick;
+}
+
+
+#escribe{
+	margin-left: 1050px;
+	margin-top:20px;
+	width: 190px;
+}
+
+#buscar{
+	margin-top: 20px;
+}

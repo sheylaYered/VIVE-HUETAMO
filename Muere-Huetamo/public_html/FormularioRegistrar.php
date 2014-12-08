@@ -7,16 +7,16 @@
         <meta name="viewport" content="width=device-width">
 
 
-         <link rel="stylesheet" type="text/css" href="css/demo.css" />
-         <link rel="stylesheet" type="text/css" href="css/style3.css" />
-         <link rel="stylesheet" href="css/Estilo1.css"> 
-         <script type="text/javascript" src="js/calculos.js"> </script>
-         <link rel="stylesheet" href="css/estiloprincipal.css"> 
+      <link rel="stylesheet" type="text/css" href="css/estilosregistrar.css">
+         
     </head>
-    <body style="background-color: darkturquoise;">
+    <body >
    <?php
 include('menu.php');
 ?>  
+
+<fieldset>
+<legend>SIGN IN</legend>
     
         
         <form method="POST" action="RegistroUsiario.php"> 
@@ -25,9 +25,9 @@ include('menu.php');
             <h3 style="font-family: lucida calligraphy"><center>Registro De Usuarios</center></h3>
             <br>
 
-            <p>Nombre: <input type="text" name="nombre" size="20" style="margin-left: 10px;"></p> 
+            <p size="30">Nombre: <input type="text"  id="nombre" name="nombre" size="30" style="margin-left: 10px;"></p> 
             
-            <p>Password: <input type="password" name="contrasena" size="20" maxlength="50" style="margin-left: 1px;"></p>
+            <p>Password: <input type="password"  id="password" name="contrasena" size="20" maxlength="50" style="margin-left: 1px;"></p>
             
             <p>Verificar Password: <input type="password" name="pass" size="20" maxlength="50" style="margin-left: 1px;"></p>
             
@@ -47,6 +47,6 @@ include('menu.php');
             
       
         </form>  
-        
+    </fieldset>
     </body>
 </html>

@@ -1,49 +1,29 @@
 
 body{
-
-background-color: firebrick;	
+padding: 0px;
+margin: 0px;
+background: url(../images/bg.jpg);
 }
 
-#cuadrito{
-	color:white;
-	border: 2px solid black;
-	height: 500px;
-	width: 900px;
-	background: gray;
-	margin-top: 50px;
-	margin-left: 220px;
-    border-radius: 5px;
-    margin-right: ;
-
-}
-.subcuadrito {
-	position: relative;
-	padding-top:40px ;
-	width: 420px;
-	height:60%;
-	margin:130px auto;
-	border: 2px solid blue;
-	margin-top: -320px;
-	margin-right: 40px;
+Fieldset{ padding-bottom:300px; 
+margin-left: 400px;
+margin-top: 100px;
+height: 40px;
+width: 40%;
+color: firebrick;
+border: 5px solid firebrick;
 }
 
 
-
-
-
-#contac3{
-	margin-top: 60px;
-	margin-left: 30px;
-
-}
 #usuario{
 	font-size: 20px;
 	font-family: arial;
-	margin-left: 60px;
+	margin-left: 40px;
 	margin-top: -60px;
 	width: 50px;
 	height: 40%;
 	margin-top: 90px;
+
 
 }
 
@@ -51,36 +31,42 @@ background-color: firebrick;
 	border: 2px solid blue;
 	font-size: 20px;
 	font-family: arial;
-	margin-left: 60px;
+	margin-left: 40px;
 	margin-top: 10px;
 	border-radius: 5px;
-	width: 300px;
+	width: 360px;
 
 }
+
+
+
 
 #contri{
 	font-size: 20px;
 	font-family: arial;
-	margin-left: 60px;
+	margin-left: 40px;
 	margin-top: 90px;
 
 }
 
+
 #pass{
 	border: 2px solid blue;
-	width: 300px;
+	width: 360px;
 	margin-top: 10px;
 	border-radius: 5px;
 	font-size: 20px;
 	font-size: 20px;
-	margin-left: 60px;
+	margin-left: 40px;
 
 
 
 }
+
+
 #boton{
 	border: 2px solid blue;
-	width: 140px;
+	width: 150px;
 	margin-top: 20px;
 	border-radius: 5px;
 	font-size: 20px;
@@ -88,13 +74,21 @@ background-color: firebrick;
 	margin-left: 140px;
 margin-bottom: 30px;
 }
+
 #link{
 	border: 2px solid blue;
-	width: 140px;
+	width: 150px;
 	margin-top: 20px;
 	
 	font-size: 20px;
 	font-size: 20px;
 	margin-left: 155px;
 
+}
+
+
+#legend{
+	font-family: arial;
+	font-size: 40px;
+	padding-bottom: 40px;
 }
