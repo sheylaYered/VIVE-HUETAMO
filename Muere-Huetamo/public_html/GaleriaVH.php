@@ -19,7 +19,7 @@ and open the template in the editor.
          <link rel="stylesheet" type="text/css" href="css/style3.css" />
          <link rel="stylesheet" href="css/Estilo1.css"> 
          <script type="text/javascript" src="js/calculos.js"> </script>
-         <link rel="stylesheet" href="css/estiloprincipal.css"> 
+       
 
          
     </head>
@@ -27,18 +27,11 @@ and open the template in the editor.
    <?php
 include('menu.php');
 ?>	
-
-    <header  background:"../Imagenes/2.jpg">
+<section id ="titulo">
+  
     Galeria de Sitios de Huetamo
-    </header>
-        <section >
+  </section>
         
-         
-         <section id="marcoCentral"></section>
-        
-        
-       
-        </section>
 
 
 
