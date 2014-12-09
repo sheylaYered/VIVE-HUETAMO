@@ -13,6 +13,7 @@
                    
                     <a href="gastronomia.php"><li class="c" >Gastronomia</li></a>
                     <a href="Tradiciones.php"><li class="c">Tradiciones</li></a>
+                    <a href="artes.html"><li class="c">Artes Popurales</li></a>
                 </ul>
             </nav>
                 <nav>
