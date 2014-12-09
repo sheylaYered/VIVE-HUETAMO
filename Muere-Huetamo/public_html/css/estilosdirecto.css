@@ -1,0 +1,74 @@
+body{
+	
+        width: 70%;
+    background-color:firebrick;
+    margin-left:2px;
+
+    
+    
+}
+
+
+#titulo{
+	margin-left: 40px;
+	text-shadow:white 0px 0px 10px;
+    font-size: 50px;
+    color:white;
+    font-family: arial;
+    
+    
+}
+
+
+#caja1{
+	border: 2px solid red;
+	height: 2800px;
+	width: 134%;
+	background: white;
+	margin-top: 40px;
+	margin-left: 40px;
+	border-radius:  5px;
+}
+
+#caja2{
+	border:2px solid red;
+	height: 2770px;
+	width: 97%;
+	background: white;
+	margin-top: 15px;
+	margin-left: 20px;
+	border-radius: 5px;
+}
+
+
+#buscar{
+	border: 2px solid red;
+
+	
+	margin-top: 1px;
+	margin-left: 1200px;
+	border-radius: 5px;
+	position: absolute;
+}
+
+
+#caja3{
+	border: 2px solid red;
+	height: 62px;
+	width: 100%;
+	background: firebrick;
+	margin-left: -2px;
+	margin-top: -1px;
+	border-radius: 5px;
+}
+
+#name{
+	border: 2px solid red;
+	margin-left: 1050px;
+	border-radius: 5px; 
+	margin-top: 1px;
+	position: absolute;
+
+
+}
+

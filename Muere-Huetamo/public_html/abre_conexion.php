@@ -2,8 +2,8 @@
 
 $servidor = "localhost";
 $usuario = "root";
-$password = "amsc";
-$baseDeDatos = "vivehuetamo";
+$password = "juan";
+$baseDeDatos = "huetamo";
 $tabla_db1 = "usuario";    
 $conexion_db = mysql_connect("$servidor","$usuario","$password") 
 or die ("Conexión denegada, el Servidor de Base de datos que solicitas NO EXISTE"); 

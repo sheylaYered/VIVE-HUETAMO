@@ -1,20 +1,10 @@
 body{
    width: 70%;
-    background: url(../images/bg.jpg);;
+    background-color:firebrick;
     margin-left:2px;
 
 }
 
-
-#lineatitulo{
-	border: 3px solid red;
-	height: 40px;
-	width: 120%;
-	background: firebrick;
-	border-radius: 5px;
-	margin-left: 100px;
-
-}
 
 
 #titulo{
@@ -23,10 +13,6 @@ body{
     font-size: 45px;
     color:white;
     font-family: verdana;
-margin-left: 50px;
-    margin-top: -10px;
-
-
     
     
 }
@@ -134,7 +120,7 @@ margin-left: 50px;
 
 
 #caja11{
-	border: 3px solid red;
+	border: 3px soid red;
 	height: 460px;
 	width: 100%;
 	background: white;
@@ -231,7 +217,6 @@ margin-left: 50px;
 
 
 #caja20{
-	
 	border: 3px solid red;
 	height: 397px;
 	width: 90%;

@@ -104,13 +104,8 @@ include('menu.php');
             
       
             <div id="personajesdestacados">
-                                   <?php 
-
-require_once 'ConNo.php';
-$con = new consultar();
-$con->consultarPersonajes();
- ?>
-   <!--                 
+                      
+                    
                            <fieldset>
 <legend><strong>Personajes</strong></legend>
 
@@ -123,7 +118,6 @@ $con->consultarPersonajes();
 <p> jose avila camacho: Escritor celebre.</p>
 
 </fieldset>
-   -->
                                </div>
             
         

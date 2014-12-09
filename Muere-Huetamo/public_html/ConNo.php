@@ -7,27 +7,14 @@ and open the template in the editor.
 <?php 
 class consultar{
 public function consultarUsuarios(){
-$conexion =  mysqli_connect("localhost", "root", "amsc", "vivehuetamo");
+$conexion =  mysqli_connect("localhost", "root", "juan", "huetamo");
 $consulta = mysqli_query($conexion, "select noticia from noticias");
 while($fila = mysqli_fetch_array($consulta)){
 echo "<tr>
 		<td>$fila[0]</td>
-		<br>
-                <br>
-	</tr>";
-}
-mysqli_close($conexion);
-mysqli_free_result($consulta);
-}
-public function consultarPersonajes(){
-$conexion =  mysqli_connect("localhost", "root", "amsc", "vivehuetamo");
-$consulta = mysqli_query($conexion, "select nombre from personajes_destacados");
-while($fila = mysqli_fetch_array($consulta)){
-echo "<tr>
-		<td>$fila[0]</td>
-             
-		<br>
-                <br>
+                    <br>
+		 <br>
+               
 	</tr>";
 }
 mysqli_close($conexion);

@@ -5,14 +5,14 @@
             <nav>
                 
                 <ul class="menuprincipal">
-                    <a href="index.php"><li class=c>Inicio</li></a>
-                    <a href="directorio.php"><li class="c">Directorio</li></a>
+                    <li class=c>Inicio</li>
+                    <li class="c">Directorio</li>
                    <a href="Historia.php"><li class="c">Historia</li></a>
-                   <li class="c"><a href="GaleriaVH.php">Galeria</li></a>
-                    <li class="c"><a href="contacto.php">Contacto</li>
-                    <a href="gastronomia.php"><li class="c" >Gastronomia</li>
+                    <li class="c"><a href="GaleriaVH.php">Galeria</li></a>
+                    <a href="contacto.php"> <li class="c">Contacto</li></a>
+                   
+                    <a href="gastronomia.php"><li class="c" >Gastronomia</li></a>
                     <a href="Tradiciones.php"><li class="c">Tradiciones</li></a>
-                    <a href="artes.html"><li class="c">Artes Populares</li></a>
                 </ul>
             </nav>
                 <nav>

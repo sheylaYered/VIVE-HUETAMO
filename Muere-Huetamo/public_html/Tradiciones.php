@@ -9,11 +9,9 @@
         
 <header>
 </header>
-<center><section id="lineatitulo">
+
 
 <div id="titulo">TRADICIONES </div>
-</section>
-</center>
 <section>
         <div id="caja1"> <h1 align="center" >TRES VIERNES</h1>
 <h2></h2>
